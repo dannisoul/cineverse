@@ -1,0 +1,47 @@
+---
+import Pinterest from "@src/icons/Pinterest.astro";
+import Facebook from "@src/icons/Facebook.astro";
+import Twitter from "@src/icons/Twitter.astro";
+import Youtube from "@src/icons/Youtube.astro";
+
+
+
+---
+<footer class="bg-[#1f2029] footer px-8">
+    <div class=" flex gap-8 sm:flex-nowrap flex-wrap items-center justify-center sm:justify-between max-w-5xl mx-auto pt-16 pb-8">
+        <h4 class="text-3xl sm:w-auto w-full text-center font-bold bg-gradient-to-r from-cyan-600 to-emerald-500 bg-clip-text text-transparent drop-shadow-2xl">Cineverse</h4>
+        <nav>
+            <ul class="flex items-center gap-10 font-semibold uppercase text-sm">
+                <li><a href="/">Home</a></li>
+                <li><a href="/">Movies</a></li>
+                <li><a href="/">Tv Shows</a></li>
+            </ul>        
+        </nav>
+    </div>
+
+    <div class="max-w-5xl h-[6px] divider mx-auto"></div>
+    <div class="max-w-5xl mx-auto flex justify-end py-8">
+        <ul class="flex items-center gap-2">
+            <li><a class="bg-[#12151e] rounded-full aspect-square p-2 block w-fit text-[#bcbcbc] hover:text-emerald-500 transition-colors" href="/"><Facebook width="20" height="20" /></a></li>
+            <li><a class="bg-[#12151e] rounded-full aspect-square p-2 block w-fit text-[#bcbcbc] hover:text-emerald-500 transition-colors" href="/"><Twitter width="20" height="20" /></a></li>
+            <li><a class="bg-[#12151e] rounded-full aspect-square p-2 block w-fit text-[#bcbcbc] hover:text-emerald-500 transition-colors" href="/"><Youtube width="20" height="20" /></a></li>
+            <li><a class="bg-[#12151e] rounded-full aspect-square p-2 block w-fit text-[#bcbcbc] hover:text-emerald-500 transition-colors" href="/"><Pinterest width="20" height="20" /></a></li>
+        </ul>
+    </div>
+</footer>
+<div class="max-w-5xl mx-auto p-8">
+    <span class="text-xs font-medium">
+        Copyright © 2024. All Rights Reserved By <span class="text-cyan-600 font-bold">Cineverse</span>
+    </span>
+</div>
+
+<style>
+    .footer{
+        background-image: url("img/footer_bg.jpg");
+    }
+
+    .divider{
+        border-top: rgba(0, 0, 0, 0.25) solid 2px;
+        border-bottom: rgba(255, 255, 255, 0.05) solid 2px;
+    }
+</style>

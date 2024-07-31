@@ -1,0 +1,96 @@
+---
+import Calendar from '@src/icons/Calendar.astro'
+
+interface Props {
+    poster: string
+    title: string
+    original_language: string
+    date: string | undefined
+}
+
+const { date, original_language, poster, title} = Astro.props
+---
+
+<section class="hero-container">
+    <div class="absolute inset-0 bg-black/50"></div>
+    <img
+        class="w-full sm:w-1/2 object-top h-screen absolute right-0 -z-10 aspect-[2/3] object-cover poster"
+            src={`http://image.tmdb.org/t/p/original/${poster}`} alt="">
+    <div class="hero flex items-center bg-center">
+        <div class="w-8/12 mx-auto media-info">
+            <h3 class="text-2xl font-bold text-emerald-500 fade-in">Most Popular</h3>
+            <h2 class="text-4xl xl:text-6xl font-bold max-w-2xl leading-snug fade-in text-pretty media-title">{title}</h2>
+            <div class="flex items-center justify-between w-fit gap-4 mt-6 fade-in media-details">
+                <div class="flex gap-2 items-center">
+                    <span class="uppercase text-[10px] bg-white border-2 border-white text-black px-2 font-bold">{original_language}</span>
+                    <span class="uppercase text-[10px] border-2 border-white px-2 font-bold">HD</span>
+                </div>
+                <div class="flex gap-1 items-center">
+                    <Calendar />
+                    <span class="text-xs font-bold">{date}</span>
+                </div>
+            </div>
+            <a 
+                class="mt-8  block  w-fit bg-[#12151e] px-12 py-4 rounded-full border-2 border-emerald-500 hover:bg-emerald-500 transition-all fade-in watch-now"
+                href="/">Watch Now</a>
+        </div>
+    </div>
+</section>
+<style>
+    .hero{
+        background-image: url('img/banner.png');
+        background-position: right;
+        background-size: cover;
+        height: 100dvh;
+        container-type: size;
+        container-name: hero;
+    }
+    .fade-in{
+        animation: fade-in 0.5s ease-in;
+    }
+
+    @keyframes fade-in {
+        from{transform: translateY(50px); opacity: 0;}
+        to{transform: translateY(0px); opacity: 1;}
+    }
+    @container hero (height <= 400px){
+        .media-details{
+            display: none;
+        }
+        .watch-now{
+            margin-top: 1rem;
+            padding: .5rem 2rem;
+        }
+    }
+    .hero-container{
+        container-type: size;
+        container-name: hero-container;
+        height: 100dvh;
+        overflow: hidden;
+    }
+    @container hero-container (height <= 900px ) {
+
+        .media-info{
+            margin-top: 2rem;
+        }
+        
+        .media-title{
+            font-size: 2.25rem;
+            line-height: 2.5rem;
+        }
+    }
+
+    @container hero-container (height <= 600px) and (width > 600px) {
+        .poster{
+            width: 50%;
+            height: auto;
+            object-position: bottom;
+        }
+    }
+    @container hero-container (width <= 1200px) and ( height > 600px) {
+        .poster{
+            width: auto;
+            height: 100vh;
+        }
+    }
+</style>

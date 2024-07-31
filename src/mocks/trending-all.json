@@ -1,0 +1,444 @@
+{
+    "page": 1,
+    "results": [
+      {
+        "backdrop_path": "/dvBCdCohwWbsP5qAaglOXagDMtk.jpg",
+        "id": 533535,
+        "title": "Deadpool & Wolverine",
+        "original_title": "Deadpool & Wolverine",
+        "overview": "A listless Wade Wilson toils away in civilian life with his days as the morally flexible mercenary, Deadpool, behind him. But when his homeworld faces an existential threat, Wade must reluctantly suit-up again with an even more reluctant Wolverine.",
+        "poster_path": "/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
+        "media_type": "movie",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          878,
+          28,
+          35
+        ],
+        "popularity": 3050.593,
+        "release_date": "2024-07-24",
+        "video": false,
+        "vote_average": 8.147,
+        "vote_count": 378
+      },
+      {
+        "backdrop_path": "/tncbMvfV0V07UZozXdBEq4Wu9HH.jpg",
+        "id": 573435,
+        "title": "Bad Boys: Ride or Die",
+        "original_title": "Bad Boys: Ride or Die",
+        "overview": "After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves.",
+        "poster_path": "/nP6RliHjxsz4irTKsxe8FRhKZYl.jpg",
+        "media_type": "movie",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          28,
+          80,
+          53,
+          35
+        ],
+        "popularity": 6093.342,
+        "release_date": "2024-06-05",
+        "video": false,
+        "vote_average": 7.546,
+        "vote_count": 934
+      },
+      {
+        "backdrop_path": "/s5znBQmprDJJ553IMQfwEVlfroH.jpg",
+        "id": 799583,
+        "title": "The Ministry of Ungentlemanly Warfare",
+        "original_title": "The Ministry of Ungentlemanly Warfare",
+        "overview": "During World War II, the British Army assigns a group of competent soldiers to carry out a mission against the Nazi forces behind enemy lines... A true story about a secret British WWII organization – the Special Operations Executive. Founded by Winston Churchill, their irregular warfare against the Germans helped to change the course of the war, and gave birth to modern black operations.",
+        "poster_path": "/8aF0iAKH9MJMYAZdi0Slg77RYa2.jpg",
+        "media_type": "movie",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          28,
+          35,
+          10752,
+          18
+        ],
+        "popularity": 155.224,
+        "release_date": "2024-04-18",
+        "video": false,
+        "vote_average": 7.235,
+        "vote_count": 478
+      },
+      {
+        "backdrop_path": "/2RVcJbWFmICRDsVxRI8F5xRmRsK.jpg",
+        "id": 762441,
+        "title": "A Quiet Place: Day One",
+        "original_title": "A Quiet Place: Day One",
+        "overview": "As New York City is invaded by alien creatures who hunt by sound, a woman named Sam fights to survive with her cat.",
+        "poster_path": "/hU42CRk14JuPEdqZG3AWmagiPAP.jpg",
+        "media_type": "movie",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          27,
+          878,
+          53
+        ],
+        "popularity": 774.147,
+        "release_date": "2024-06-26",
+        "video": false,
+        "vote_average": 6.8,
+        "vote_count": 498
+      },
+      {
+        "backdrop_path": "/8hbXSjV5JvSjuSnOF2TBOAJEu5m.jpg",
+        "id": 250162,
+        "name": "The Decameron",
+        "original_name": "The Decameron",
+        "overview": "As the bubonic plague spreads through Italy, a group of nobles and servants retreats to a villa, where their lavish getaway quickly spirals into chaos.",
+        "poster_path": "/7jxX4EQLeGMQb8SA4YgiaUowz8n.jpg",
+        "media_type": "tv",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          35,
+          18
+        ],
+        "popularity": 180.046,
+        "first_air_date": "2024-07-25",
+        "vote_average": 4.25,
+        "vote_count": 8,
+        "origin_country": [
+          "US"
+        ]
+      },
+      {
+        "backdrop_path": "/33Al50uZ9cZSddklcuHTaHmNxeE.jpg",
+        "id": 114924,
+        "name": "Time Bandits",
+        "original_name": "Time Bandits",
+        "overview": "Eleven-year-old Kevin's passion for history is put to the test when he joins a ragtag group of time-traveling thieves on a high-stakes and hilarious adventure.",
+        "poster_path": "/ahnTuygdAbjXvLKzLQlK2txosMX.jpg",
+        "media_type": "tv",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          10765,
+          10759,
+          35
+        ],
+        "popularity": 219.926,
+        "first_air_date": "2024-07-23",
+        "vote_average": 5.708,
+        "vote_count": 23,
+        "origin_country": [
+          "NZ",
+          "GB",
+          "US"
+        ]
+      },
+      {
+        "backdrop_path": "/qNCB0RqLU4b9S7yqv1aKWzONT2U.jpg",
+        "id": 1309923,
+        "title": "Non Negotiable",
+        "original_title": "No negociable",
+        "overview": "Hostage negotiator Alan Bender is called to rescue the president from a kidnapping, only to find himself also mediating to save his wife and marriage.",
+        "poster_path": "/bHQG4UsLMFCy91gfLAFRpnCOPdP.jpg",
+        "media_type": "movie",
+        "adult": false,
+        "original_language": "es",
+        "genre_ids": [
+          28,
+          53,
+          35
+        ],
+        "popularity": 32.548,
+        "release_date": "2024-07-25",
+        "video": false,
+        "vote_average": 8.3,
+        "vote_count": 3
+      },
+      {
+        "backdrop_path": "/pxw4oHIvDcaLM0PISHhibs2iboe.jpg",
+        "id": 249906,
+        "name": "Tokyo Swindlers",
+        "original_name": "地面師たち",
+        "overview": "A team of swindlers gets wind of prime real estate worth 10 billion yen and will stop at nothing to pull off their most ambitious scam yet.",
+        "poster_path": "/5NwSIZTfH04UW0VRRQxPcZk3XXm.jpg",
+        "media_type": "tv",
+        "adult": false,
+        "original_language": "ja",
+        "genre_ids": [
+          80,
+          18
+        ],
+        "popularity": 138.762,
+        "first_air_date": "2024-07-25",
+        "vote_average": 7.125,
+        "vote_count": 8,
+        "origin_country": [
+          "JP"
+        ]
+      },
+      {
+        "backdrop_path": "/eNPpCa7vxO6EYL1Z3H00JoeO4jL.jpg",
+        "id": 76669,
+        "name": "Elite",
+        "original_name": "Élite",
+        "overview": "When three working class kids enroll in the most exclusive school in Spain, the clash between the wealthy and the poor students leads to tragedy.",
+        "poster_path": "/3NTAbAiao4JLzFQw6YxP1YZppM8.jpg",
+        "media_type": "tv",
+        "adult": false,
+        "original_language": "es",
+        "genre_ids": [
+          80,
+          9648,
+          18
+        ],
+        "popularity": 613.368,
+        "first_air_date": "2018-10-05",
+        "vote_average": 8,
+        "vote_count": 9038,
+        "origin_country": [
+          "ES"
+        ]
+      },
+      {
+        "backdrop_path": "/en3GU5uGkKaYmSyetHV4csHHiH3.jpg",
+        "id": 929590,
+        "title": "Civil War",
+        "original_title": "Civil War",
+        "overview": "In the near future, a group of war journalists attempt to survive while reporting the truth as the United States stands on the brink of civil war.",
+        "poster_path": "/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
+        "media_type": "movie",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          10752,
+          28,
+          18
+        ],
+        "popularity": 671.168,
+        "release_date": "2024-04-10",
+        "video": false,
+        "vote_average": 6.986,
+        "vote_count": 1982
+      },
+      {
+        "backdrop_path": "/7cqKGQMnNabzOpi7qaIgZvQ7NGV.jpg",
+        "id": 76479,
+        "name": "The Boys",
+        "original_name": "The Boys",
+        "overview": "A group of vigilantes known informally as “The Boys” set out to take down corrupt superheroes with no more than blue-collar grit and a willingness to fight dirty.",
+        "poster_path": "/2zmTngn1tYC1AvfnrFLhxeD82hz.jpg",
+        "media_type": "tv",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          10765,
+          10759
+        ],
+        "popularity": 1673.007,
+        "first_air_date": "2019-07-25",
+        "vote_average": 8.474,
+        "vote_count": 10069,
+        "origin_country": [
+          "US"
+        ]
+      },
+      {
+        "backdrop_path": "/m2D5bhoAB0ewe42m8rfIl0a1ahM.jpg",
+        "id": 211089,
+        "name": "Strange Tales Of Tang Dynasty",
+        "original_name": "唐朝诡事录",
+        "overview": "When the dark evil immortal descends from the heaven, and the mysterious underground ghost palace was revealed, a strange herb named the Black Tea suddenly took Chang'an City by storm. However, no one knows whether it is a healthy medicine or one that could harm people. Cases of missing brides in Chang'an City began occurring one after another, which seems to be inextricably linked to the black tea...  Ling Feng, general of the Jin Wu guards was tasked to investigate these cases. On his journey, he meets his strongest opponent in Su Wu Ming, the disciple of Di Ren Jie. The two of them work together to solve these mysterious cases.",
+        "poster_path": "/y8a0sXfO1tn5KGH6mRVn7FnPdkW.jpg",
+        "media_type": "tv",
+        "adult": false,
+        "original_language": "zh",
+        "genre_ids": [
+          9648,
+          80,
+          10759
+        ],
+        "popularity": 2931.807,
+        "first_air_date": "2022-09-27",
+        "vote_average": 8.1,
+        "vote_count": 16,
+        "origin_country": [
+          "CN"
+        ]
+      },
+      {
+        "backdrop_path": "/xg27NrXi7VXCGUr7MG75UqLl6Vg.jpg",
+        "id": 1022789,
+        "title": "Inside Out 2",
+        "original_title": "Inside Out 2",
+        "overview": "Teenager Riley's mind headquarters is undergoing a sudden demolition to make room for something entirely unexpected: new Emotions! Joy, Sadness, Anger, Fear and Disgust, who’ve long been running a successful operation by all accounts, aren’t sure how to feel when Anxiety shows up. And it looks like she’s not alone.",
+        "poster_path": "/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg",
+        "media_type": "movie",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          16,
+          10751,
+          12,
+          35
+        ],
+        "popularity": 4433.962,
+        "release_date": "2024-06-11",
+        "video": false,
+        "vote_average": 7.6,
+        "vote_count": 2085
+      },
+      {
+        "backdrop_path": "/etj8E2o0Bud0HkONVQPjyCkIvpv.jpg",
+        "id": 94997,
+        "name": "House of the Dragon",
+        "original_name": "House of the Dragon",
+        "overview": "The Targaryen dynasty is at the absolute apex of its power, with more than 15 dragons under their yoke. Most empires crumble from such heights. In the case of the Targaryens, their slow fall begins when King Viserys breaks with a century of tradition by naming his daughter Rhaenyra heir to the Iron Throne. But when Viserys later fathers a son, the court is shocked when Rhaenyra retains her status as his heir, and seeds of division sow friction across the realm.",
+        "poster_path": "/7QMsOTMUswlwxJP0rTTZfmz2tX2.jpg",
+        "media_type": "tv",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          10765,
+          18,
+          10759
+        ],
+        "popularity": 2458.681,
+        "first_air_date": "2022-08-21",
+        "vote_average": 8.411,
+        "vote_count": 4517,
+        "origin_country": [
+          "US"
+        ]
+      },
+      {
+        "backdrop_path": "/rNrG1E0NLoQnYudBmPGKfcY2RIM.jpg",
+        "id": 156933,
+        "name": "Presumed Innocent",
+        "original_name": "Presumed Innocent",
+        "overview": "A horrific murder upends the Chicago Prosecuting Attorney's Office when one of its own is suspected of the crime—leaving the accused fighting to keep his family together.",
+        "poster_path": "/7MXg0BxuSRWz2yKc03M40du2mrc.jpg",
+        "media_type": "tv",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          18,
+          9648
+        ],
+        "popularity": 670.992,
+        "first_air_date": "2024-06-11",
+        "vote_average": 8.049,
+        "vote_count": 162,
+        "origin_country": [
+          "US"
+        ]
+      },
+      {
+        "backdrop_path": "/en971MEXui9diirXlogOrPKmsEn.jpg",
+        "id": 293660,
+        "title": "Deadpool",
+        "original_title": "Deadpool",
+        "overview": "The origin story of former Special Forces operative turned mercenary Wade Wilson, who, after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
+        "poster_path": "/3E53WEZJqP6aM84D8CckXx4pIHw.jpg",
+        "media_type": "movie",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          28,
+          12,
+          35
+        ],
+        "popularity": 878.916,
+        "release_date": "2016-02-09",
+        "video": false,
+        "vote_average": 7.617,
+        "vote_count": 30246
+      },
+      {
+        "backdrop_path": "/pa50IrmaGjACJrFjO5MmRQrExV0.jpg",
+        "id": 206010,
+        "name": "Kleo",
+        "original_name": "Kleo",
+        "overview": "After the fall of the Berlin Wall, a former East German spy resolves to find out who betrayed her and why — and use her lethal skills to exact revenge.",
+        "poster_path": "/3eJPijhvoQufRivX50aNT6PW4on.jpg",
+        "media_type": "tv",
+        "adult": false,
+        "original_language": "de",
+        "genre_ids": [
+          10759,
+          18,
+          35
+        ],
+        "popularity": 250.41,
+        "first_air_date": "2022-08-19",
+        "vote_average": 6.992,
+        "vote_count": 122,
+        "origin_country": [
+          "DE"
+        ]
+      },
+      {
+        "backdrop_path": "/H5HjE7Xb9N09rbWn1zBfxgI8uz.jpg",
+        "id": 746036,
+        "title": "The Fall Guy",
+        "original_title": "The Fall Guy",
+        "overview": "Fresh off an almost career-ending accident, stuntman Colt Seavers has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job.",
+        "poster_path": "/tSz1qsmSJon0rqjHBxXZmrotuse.jpg",
+        "media_type": "movie",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          28,
+          35
+        ],
+        "popularity": 577.772,
+        "release_date": "2024-04-24",
+        "video": false,
+        "vote_average": 7.2,
+        "vote_count": 1650
+      },
+      {
+        "backdrop_path": "/wsgni4E1UnBuvFouUUanSdniQi0.jpg",
+        "id": 718821,
+        "title": "Twisters",
+        "original_title": "Twisters",
+        "overview": "As storm season intensifies, the paths of former storm chaser Kate Carter and reckless social-media superstar Tyler Owens collide when terrifying phenomena never seen before are unleashed. The pair and their competing teams find themselves squarely in the paths of multiple storm systems converging over central Oklahoma in the fight of their lives.",
+        "poster_path": "/pjnD08FlMAIXsfOLKQbvmO0f0MD.jpg",
+        "media_type": "movie",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          28,
+          12,
+          18
+        ],
+        "popularity": 533.54,
+        "release_date": "2024-07-10",
+        "video": false,
+        "vote_average": 7.258,
+        "vote_count": 236
+      },
+      {
+        "backdrop_path": "/c3rwwFFVbkyEI6wPtpPd9lvovPW.jpg",
+        "id": 1311550,
+        "title": "House of Ga'a",
+        "original_title": "House of Ga'a",
+        "overview": "At the height of the Oyo Empire, the ferocious Bashorun Ga'a became more powerful than the kings he enthroned, only to be undone by his own blood.",
+        "poster_path": "/tlBVhYp9ByAVgRC5QQpGG1vc4IX.jpg",
+        "media_type": "movie",
+        "adult": false,
+        "original_language": "en",
+        "genre_ids": [
+          28,
+          36
+        ],
+        "popularity": 34.103,
+        "release_date": "2024-07-26",
+        "video": false,
+        "vote_average": 1,
+        "vote_count": 1
+      }
+    ],
+    "total_pages": 1000,
+    "total_results": 20000
+  }

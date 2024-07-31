@@ -1,0 +1,63 @@
+<button id="toggle-sidebar" aria-controls="sidebar" aria-expanded="false" class="flex lg:hidden flex-col justify-around w-8 h-8 border-none transition-all duration-500 outline-none">
+    <div class="w-8 h-1 bg-white rounded-lg toggle-bar transition-all duration-250"></div>
+    <div class="w-8 h-1 bg-white rounded-lg toggle-bar transition-all duration-250"></div>
+    <div class="w-8 h-1 bg-white rounded-lg toggle-bar transition-all duration-250"></div>
+</button>
+<aside id="sidebar" class="fixed -right-[300px] top-0 bottom-0 w-[300px] bg-[#171d22] shadow-lg shadow-black transition-all duration-500">
+    <nav>
+        <header class="px-6 py-6 border-b-2 border-white/5">
+            <h2 class="text-3xl font-bold bg-gradient-to-r text-transparent from-cyan-600 to-emerald-500 bg-clip-text">Cineverse</h2>
+            <button></button>
+        </header>
+        <ul>
+            <li><a class="px-6 py-4 hover:pl-10 transition-all block border-b-2 border-white/5" href="/">Home</a></li>
+            <li><a class="px-6 py-4 hover:pl-10 transition-all block border-b-2 border-white/5" href="/movies">Movies</a></li>
+            <li><a class="px-6 py-4 hover:pl-10 transition-all block border-b-2 border-white/5" href="/shows">TV Shows</a></li>
+        </ul>
+    </nav>
+</aside>
+<script>
+    const toggle = document.getElementById("toggle-sidebar") as HTMLButtonElement
+    const sidebar = document.getElementById("sidebar") as HTMLDivElement
+
+    toggle.addEventListener("click", (e: MouseEvent) => {
+        const isExpanded = toggle.getAttribute('aria-expanded') === 'true'
+        setExpanded(String(!isExpanded) as 'true' | 'false')
+    })
+
+    document.addEventListener("click", (e: MouseEvent) => {
+        const target = e.target as HTMLDivElement
+        if(!sidebar.contains(target) && !toggle.contains(target)) setExpanded('false')
+    })
+
+    document.addEventListener("keyup", (e: KeyboardEvent) => {
+        if(e.key === "Escape") setExpanded('false')
+    })
+
+    function setExpanded(value: 'true' | 'false'){
+        sidebar.setAttribute('aria-expanded', value)
+        toggle.setAttribute('aria-expanded', value)
+    }
+
+</script>
+<style>
+    #sidebar[aria-expanded="true"]{
+        right: 0px;
+    }
+    #sidebar[aria-expanded="false"]{
+        right: -300px;
+    }
+    /* .toggle-bar{
+        transform-origin: 1px;
+    }
+    #toggle-sidebar[aria-expanded="true"] .toggle-bar:first-child{
+        transform: rotate(45deg);
+    }
+    #toggle-sidebar[aria-expanded="true"] .toggle-bar:nth-child(2){
+        transform: translateX(50px);
+        opacity: 0;
+    }
+    #toggle-sidebar[aria-expanded="true"] .toggle-bar:nth-child(3){
+        transform: rotate(-45deg);
+    } */
+</style>

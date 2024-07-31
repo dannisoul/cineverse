@@ -1,4 +1,7 @@
 ---
+import Footer from '@src/components/Footer.astro';
+import Header from '../components/Header.astro';
+
 interface Props {
 	title: string;
 }
@@ -17,7 +20,9 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
+		<Header />
 		<slot />
+		<Footer />
 	</body>
 </html>
 <style is:global>
@@ -32,20 +37,38 @@ const { title } = Astro.props;
 			white 60%
 		);
 	}
+	@font-face {
+		font-family: 'Montserrat';
+		src: url('/fonts/Montserrat-Bold.ttf') format("truetype");
+		font-weight: 700;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Montserrat';
+		src: url('/fonts/Montserrat-SemiBold.ttf') format("truetype");
+		font-weight: 600;
+		font-style: normal;
+	}
+	@font-face {
+		font-family: 'Montserrat';
+		src: url('/fonts/Montserrat-Medium.ttf') format("truetype");
+		font-weight: 500;
+		font-style: normal;
+	}
+
+	@font-face{
+		font-family: 'Montserrat';
+		src: url('/fonts/Montserrat-Regular.ttf') format("truetype");
+		font-weight: 400;
+		font-style: normal;
+	}
 	html {
-		font-family: system-ui, sans-serif;
-		background: #13151a;
-		background-size: 224px;
+		font-family: Montserrat, system-ui;
+		background: #171b22;
+		color: whitesmoke;
+		background-image: url('/img/background.png');
+		background-size: cover;
 	}
-	code {
-		font-family:
-			Menlo,
-			Monaco,
-			Lucida Console,
-			Liberation Mono,
-			DejaVu Sans Mono,
-			Bitstream Vera Sans Mono,
-			Courier New,
-			monospace;
-	}
+
+
 </style>

@@ -1,0 +1,53 @@
+---
+import Sidebar from "./Sidebar.astro";
+---
+
+<div id="top-limit" />
+<header id="header" class="absolute top-0 left-0 right-0 z-10" >
+    <div class="flex justify-between items-center py-6 px-6 w-full sm:w-11/12 lg:w-full max-w-7xl mx-auto">
+        <h1 class="text-3xl font-bold w-64 bg-gradient-to-r from-cyan-500 to-emerald-500 bg-clip-text text-transparent">Cineverse</h1>
+        <nav class="hidden lg:block">
+            <ul class="flex itemx-center justify-center gap-16 font-bold text-sm uppercase">
+                <li><a href="/">Home</a></li>
+                <li><a href="/movies">Movies</a></li>
+                <li><a href="/shows">TV Shows</a></li>
+            </ul>
+        </nav>
+        <input
+            placeholder="Search for something..." 
+            spellcheck="false"
+            class="hidden lg:block w-64 bg-[#12151e] border-2 border-cyan-600 focus:border-emerald-500 transition-colors duration-300 outline-none rounded-full px-4 py-2 text-sm" 
+            type="text" />
+        <Sidebar />
+    </div>
+</header>
+<script>
+    const header = document.getElementById("header") as HTMLDivElement
+    const limit = document.getElementById("top-limit") as HTMLDivElement
+    const observer = new IntersectionObserver((entries) => {
+        console.log(entries[0])
+        if(!entries[0].isIntersecting){
+            header.classList.replace('absolute', 'fixed')
+        }else{
+            header.classList.replace('fixed', 'absolute')
+
+        }
+    }, 
+    {
+        rootMargin: '200px'
+    })
+    
+    observer.observe(limit)
+</script>
+
+<style>
+    #header.fixed{
+        animation: fade-in-header .5s ease-in;
+        background-color: #171b22;
+    }
+
+    @keyframes fade-in-header {
+        from{opacity: 0; top: -104px;}
+        to{opacity: 1; top: 0;}
+    }
+</style>

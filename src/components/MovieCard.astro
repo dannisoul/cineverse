@@ -1,0 +1,28 @@
+---
+import ThumbUp from '@src/icons/ThumbUp.astro'
+import type { Result as Movie } from '@src/types/upcoming-movies'
+
+interface Props {
+    movie: Movie
+}
+
+const movie = Astro.props.movie
+---
+
+<article class="flex flex-col gap-4 w-full">
+    <img 
+        class="w-full aspect-[2/3] object-cover rounded-lg"
+        src={`http://image.tmdb.org/t/p/w342/${movie.poster_path}`} 
+        alt={`Poster for ${movie.title}`} />
+    <div class="flex justify-between gap-2">
+        <span class="font-semibold line-clamp-1">{movie.title}</span>
+        <span class="font-medium text-cyan-600">{movie.release_date.substring(0,4)}</span>
+    </div>
+    <div class="flex justify-between items-center">
+        <span class="uppercase text-xs font-bold border-[2px] border-white text-cyan-600 px-2">{movie.original_language}</span>
+        <span class="text-cyan-600 flex items-center gap-2">
+            <ThumbUp />
+            <span class="text-xs text-white font-medium">{movie.vote_average.toFixed(2)}</span>
+        </span>
+    </div>
+</article>
