@@ -3,11 +3,25 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "@src/*": ["src/*"],
-      "@mocks/*": ["src/mocks/*"],
-      "@components/*": ["src/components/*"],
-      "@types/*": ["src/types/*"],
-      "@icons/*": ["src/icons/*"],
-    }
+      "@src/*": [
+        "src/*"
+      ],
+      "@mocks/*": [
+        "src/mocks/*"
+      ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      "@types/*": [
+        "src/types/*"
+      ],
+      "@icons/*": [
+        "src/icons/*"
+      ],
+      "@home/*": ["src/home/*"],
+      "@shared/*": ["src/shared/*"]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   }
 }

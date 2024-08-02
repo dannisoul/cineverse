@@ -1,52 +1,17 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import upcoming from '@mocks/upcoming-movies.json'
-import MovieCard from '@src/components/MovieCard.astro';
-import trending from '@mocks/trending-all.json'
-import Hero from '@src/Home/components/Hero.astro';
-import OurServices from '@src/Home/components/OurServices.astro';
-import trendingTvShows from '@mocks/trending-tv.json'
-import TvShowCard from '@src/components/TvShowCard.astro';
+import { Hero } from '@home/components/Hero'
+import OurServices from '@home/components/OurServices.astro';
+import { UpcomingMovies } from '@src/home/components/UpcomingMovies';
+import { TrendingShows } from '@src/home/components/TrendingShows';
 
-const trendingMedia = trending.results[0]
 ---
 
 <Layout title="Welcome to Astro.">
-    <Hero 
-        title={trendingMedia.name ?? trendingMedia.title}
-        original_language={trendingMedia.original_language}
-        poster={trendingMedia.poster_path}
-        date={trendingMedia.release_date?.substring(0,4) ?? trendingMedia.first_air_date?.substring(0,4)}
-    />
-    <section class="max-w-6xl w-11/12 mx-auto py-16">
-        <h3 class="text-cyan-600 font-semibold">Online Streaming</h3>
-        <h2 class="text-3xl font-bold">Upcoming Movies</h2>
-        <div class="movie-grid mt-16">
-            {upcoming.results.map(movie => (
-                <MovieCard movie={movie} />
-            ))}
-        </div>
-    </section>
-    <OurServices />
-    <section class="max-w-6xl w-11/12 mx-auto py-16">
-        <h3 class="text-cyan-600 font-semibold">Online Streaming</h3>
-        <h2 class="text-3xl font-bold">Top Tv Shows</h2>
-        <div class="movie-grid mt-16">
-            {trendingTvShows.results.map(tvShow => (
-                <TvShowCard tvShow={tvShow} />
-            ))}
-        </div>
-    </section>
+    <Hero client:load />
     
+    <TrendingShows client:load/>
+    <OurServices />
+    <UpcomingMovies client:load />
 </Layout>
 
-<style>
-    .movie-grid{
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(260px, .3fr));
-        column-gap: 2rem;
-        row-gap: 4rem;
-        place-content: center;
-    }
-
-</style>

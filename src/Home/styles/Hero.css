@@ -1,0 +1,56 @@
+.hero{
+    background-image: url('img/hero-bg.png');
+    background-position: right;
+    background-size: cover;
+    height: 100dvh;
+    container-type: size;
+    container-name: hero;
+}
+.fade-in{
+    animation: fade-in 0.5s ease-in;
+}
+
+@keyframes fade-in {
+    from{transform: translateY(50px); opacity: 0;}
+    to{transform: translateY(0px); opacity: 1;}
+}
+@container hero (height <= 400px){
+    .media-details{
+        display: none;
+    }
+    .watch-now{
+        margin-top: 1rem;
+        padding: .5rem 2rem;
+    }
+}
+.hero-container{
+    container-type: size;
+    container-name: hero-container;
+    height: 100dvh;
+    overflow: hidden;
+}
+@container hero-container (height <= 900px ) {
+
+    .media-info{
+        margin-top: 2rem;
+    }
+    
+    .media-title{
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+    }
+}
+
+@container hero-container (height <= 600px) and (width > 600px) {
+    .poster{
+        width: 50%;
+        height: auto;
+        object-position: bottom;
+    }
+}
+@container hero-container (width <= 1200px) and ( height > 600px) {
+    .poster{
+        width: auto;
+        height: 100vh;
+    }
+}

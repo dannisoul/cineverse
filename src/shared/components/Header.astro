@@ -25,12 +25,10 @@ import Sidebar from "./Sidebar.astro";
     const header = document.getElementById("header") as HTMLDivElement
     const limit = document.getElementById("top-limit") as HTMLDivElement
     const observer = new IntersectionObserver((entries) => {
-        console.log(entries[0])
         if(!entries[0].isIntersecting){
             header.classList.replace('absolute', 'fixed')
         }else{
             header.classList.replace('fixed', 'absolute')
-
         }
     }, 
     {
