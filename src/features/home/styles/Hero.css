@@ -6,14 +6,7 @@
     container-type: size;
     container-name: hero;
 }
-.fade-in{
-    animation: fade-in 0.5s ease-in;
-}
 
-@keyframes fade-in {
-    from{transform: translateY(50px); opacity: 0;}
-    to{transform: translateY(0px); opacity: 1;}
-}
 @container hero (height <= 400px){
     .media-details{
         display: none;

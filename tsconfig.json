@@ -15,11 +15,9 @@
       "@types/*": [
         "src/types/*"
       ],
-      "@icons/*": [
-        "src/icons/*"
-      ],
-      "@home/*": ["src/home/*"],
-      "@shared/*": ["src/shared/*"]
+      "@home/*": ["src/features/home/*"],
+      "@movies/*": ["src/features/movies/*"],
+      "@shared/*": ["src/features/shared/*"]
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react"

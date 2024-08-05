@@ -1,4 +1,4 @@
-import { MediaCard } from "@src/shared/components/MediaCard"
+import { MediaCard } from "@shared/components/MediaCard"
 import type { TrendingTvResponse } from "@src/types/trending-tv"
 
 const response = await fetch(import.meta.env.PUBLIC_BASE_URL + `api/trending?mediaType=tv`)

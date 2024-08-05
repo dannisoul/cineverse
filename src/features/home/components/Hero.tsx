@@ -1,4 +1,4 @@
-import { Calendar } from '@src/shared/components/Icons'
+import { Calendar } from '@shared/icons/Icons'
 import '../styles/Hero.css'
 import type { TrendingAllResponse } from '@src/types/trending-all'
 

@@ -1,4 +1,4 @@
-import { ThumbUp } from "./Icons";
+import { ThumbUp } from "@shared/icons/Icons";
 
 export function MediaCard ({image, title, date, language, vote_average}: {image: string, title: string, date: string, language: string, vote_average: string}) {
     return (

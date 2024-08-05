@@ -1,0 +1,10 @@
+---
+import Layout from "@src/layouts/Layout.astro";
+import Hero from "@movies/components/Hero.astro"
+import { PopularMovies } from "@src/features/movies/components/PopularMovies"
+---
+
+<Layout title="Movies">
+    <Hero />
+    <PopularMovies client:load />
+</Layout>
