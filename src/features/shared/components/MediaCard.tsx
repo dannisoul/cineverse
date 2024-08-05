@@ -6,6 +6,10 @@ export function MediaCard ({image, title, date, language, vote_average}: {image:
             <img 
                 className="w-full aspect-[2/3] object-cover rounded-lg"
                 src={image} 
+                onError={(e) => {
+                    const target = e.target as HTMLImageElement
+                    target.src = '/img/poster.png'
+                }}
                 alt={`Poster for ${title}`} />
             <div className="flex justify-between gap-2">
                 <span className="font-semibold line-clamp-1">{title}</span>

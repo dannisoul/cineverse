@@ -9,7 +9,6 @@ export function usePopularMovies ({currentPage}: {currentPage: number}) {
         fetch(import.meta.env.PUBLIC_BASE_URL + `api/popular?mediaType=movie&page=${currentPage}`)
             .then(response => response.json())
             .then((data: PopularMoviesResponse | ErrorResponse) => {
-                console.log(data)
                 if("error" in data) return
                 setData(data)
             })

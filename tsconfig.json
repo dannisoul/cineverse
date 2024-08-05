@@ -17,6 +17,7 @@
       ],
       "@home/*": ["src/features/home/*"],
       "@movies/*": ["src/features/movies/*"],
+      "@tv/*": ["src/features/tv/*"],
       "@shared/*": ["src/features/shared/*"]
     },
     "jsx": "react-jsx",

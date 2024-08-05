@@ -4,7 +4,7 @@ import type { TrendingTvResponse } from "@src/types/trending-tv"
 const response = await fetch(import.meta.env.PUBLIC_BASE_URL + `api/trending?mediaType=tv`)
 const data: TrendingTvResponse | ErrorResponse = await response.json()
 
-export function TrendingShows () {
+export function TrendingTv () {
 
     if("error" in data) return
 

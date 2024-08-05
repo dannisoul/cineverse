@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import { Hero } from '@home/components/Hero'
 import OurServices from '@home/components/OurServices.astro';
 import { UpcomingMovies } from '@home/components/UpcomingMovies';
-import { TrendingShows } from '@home/components/TrendingShows';
+import { TrendingTv } from '@src/features/home/components/TrendingTv';
 
 ---
 
@@ -11,6 +11,6 @@ import { TrendingShows } from '@home/components/TrendingShows';
     <Hero client:load />
     <UpcomingMovies client:load />
     <OurServices />
-    <TrendingShows client:load/>
+    <TrendingTv client:load/>
 </Layout>
 

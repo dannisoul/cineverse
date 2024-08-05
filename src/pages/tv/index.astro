@@ -1,0 +1,10 @@
+---
+import Hero from "@tv/components/Hero.astro";
+import Layout from "@src/layouts/Layout.astro";
+import { PopularTvShows } from "@tv/components/PopularTvShows"
+---
+
+<Layout title="Tv Shows">
+    <Hero />
+    <PopularTvShows client:load />
+</Layout>
